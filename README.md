@@ -22,7 +22,7 @@ Skills demonstrated:
 
 
 Creating Admin and Employee OUs  
-(Insert screenshot: ADUC showing _EMPLOYEES and _ADMINS)
+<img width="758" height="529" alt="image" src="https://github.com/user-attachments/assets/bd08954f-a039-4042-a1f3-47fe05f491cb" />
 
 
 Why this matters:  
@@ -36,6 +36,9 @@ Skills demonstrated:
 
 Creating a Domain Admin Account (jane_admin)  
 (Insert screenshot: jane_admin user properties + Domain Admins group membership)
+<img width="412" height="533" alt="image" src="https://github.com/user-attachments/assets/e90c7103-0b1b-4919-aaad-c8316655d012" />
+<img width="409" height="536" alt="image" src="https://github.com/user-attachments/assets/16ebce72-f26f-457a-a2eb-756557d9ef96" />
+<img width="757" height="530" alt="image" src="https://github.com/user-attachments/assets/0b0385d2-d128-4481-bc69-d0df8f1225a3" />
 
 
 Why this matters:  
@@ -48,8 +51,10 @@ Skills demonstrated:
 • Logging in with proper elevated credentials  
 
 
-Joining Client-1 to the Domain  
+Joining Client -1 to the Domain  
 (Insert screenshot: domain join window + ADUC showing Client-1)
+<img width="328" height="419" alt="image" src="https://github.com/user-attachments/assets/08a7f1c4-1c9a-47eb-95aa-7cbe018e3e58" />
+<img width="754" height="528" alt="image" src="https://github.com/user-attachments/assets/c59dc5cd-68bb-410a-8f87-b799c187f9d8" />
 
 
 Why this matters:  
@@ -61,22 +66,36 @@ Skills demonstrated:
 • Configuring DNS for domain communication  
 • Verifying computer objects in ADUC  
 • Moving devices into proper OUs  
-
+ 
 
 Allowing Remote Desktop for Domain Users  
 (Insert screenshot: RDP settings showing Domain Users allowed)
+<img width="1201" height="935" alt="image" src="https://github.com/user-attachments/assets/d337c333-e400-41e1-b47b-d902a570d9ec" />
+<img width="1204" height="935" alt="image" src="https://github.com/user-attachments/assets/2fc2614d-6447-4fe5-ba64-86622fe716ec" />
+
 
 
 Why this matters:  
 Companies often require remote access for employees. Setting this correctly ensures users can connect without giving them full admin privileges, which keeps the environment secure.
 
 
-Skills demonstrated:  
+ Skills demonstrated:  
 • Configuring local RDP permissions  
 • Managing domain user access on client machines  
 • Understanding device-level access control  
 
-Bulk User Creation with PowerShell  
-(Insert screenshot: script in PowerShell ISE + created users in _EMPLOYEES)
 
-Why this matters:
+ Bulk User Creation with PowerShell  
+<img width="1536" height="954" alt="image" src="https://github.com/user-attachments/assets/ae34ad41-0f03-4dbb-b2fb-609ccc084b0f" />
+
+
+ Why this matters:  
+Sometimes companies need to create many accounts at once. Doing it manually would take too long and increase the chance of mistakes. Using PowerShell to automate the process shows that you can handle bulk tasks quickly and accurately.
+
+
+  Skills demonstrated:  
+• Running basic PowerShell scripts  
+• Creating multiple users from a CSV file  
+• Placing new accounts in the correct OU  
+• Following consistent naming and account standards  
+
